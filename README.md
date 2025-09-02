@@ -204,11 +204,11 @@ All values in the JSON cannot be changed, and none can be missing.
 
    - dfs: Depth-First Search (DFS), usually slower, but needs less memory
 
-### max_depth key (Integer):
+### max_depth (Integer) key:
 
    - Purpose: The maximum depth to search for solutions.
 
-### min_depth key (Integer):
+### min_depth (Integer) key:
 
    - Purpose: The minimum depth to search for solutions (Only has limitations on the DFS mode, but BFS mode also needs this key).
 
